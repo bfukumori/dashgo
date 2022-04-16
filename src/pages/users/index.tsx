@@ -81,7 +81,7 @@ export default function UserList() {
                           <Text fontSize="small" color="gray.300">{user.email}</Text>
                         </Box>
                       </Td>
-                      {isWideVersion && <Td>{user.createdAt}</Td>}
+                      {isWideVersion && <Td>{user.created_at}</Td>}
                       <Td>
                         <Button as="a" size="sm" fontSize="sm" colorScheme="purple" leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                           pr={isWideVersion ? '' : '1'}>
