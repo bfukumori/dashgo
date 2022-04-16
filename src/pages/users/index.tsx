@@ -13,6 +13,7 @@ export default function UserList() {
   const [page, setPage] = useState(1);
   const { data, isLoading, isFetching, isError } = useUsers(page);
 
+
   const isWideVersion = useBreakpointValue({
     base: false,
     lg: true
@@ -99,6 +100,5 @@ export default function UserList() {
         </Box>
       </Flex>
     </Box>
-
   )
 }
