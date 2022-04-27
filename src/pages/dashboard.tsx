@@ -68,11 +68,11 @@ export default function Dashboard() {
         <SimpleGrid flex="1" gap="4" minChildWidth="320px" >
           <Box p={["6", "8"]} bg="gray.800" borderRadius={8} pb="4">
             <Text fontSize="large" mb="4">Inscritos da semana</Text>
-            <Chart type="area" height={160} options={options} series={series} />
+            <Chart type="area" height={160} options={options as {}} series={series} />
           </Box>
           <Box p={["6", "8"]} bg="gray.800" borderRadius={8}>
             <Text fontSize="large" mb="4">Taxa de abertura</Text>
-            <Chart type="area" height={160} options={options} series={series} />
+            <Chart type="area" height={160} options={options as {}} series={series} />
           </Box>
         </SimpleGrid>
       </Flex>
