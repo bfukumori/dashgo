@@ -19,13 +19,12 @@
  
 </p>
 <h1 align="center">
-    <img alt="dashgo" title="#dashgo" src="./.github/logo.png" />
+    <img alt="dashgo" title="#dashgo" src=".github/logo.PNG" />
 </h1>
 
 <p align="center">
   <a href="#about">About</a> •
   <a href="#features">Features</a> •
-  <a href="#layout">Layout</a> • 
   <a href="#how-it-works">How it works</a> • 
   <a href="#tech-stack">Tech Stack</a> • 
   <a href="#author">Author</a> • 
@@ -33,7 +32,7 @@
 </p>
 
 <div align="center"> 
-	<img alt="dashgo" title="#dashgo" src="./.github/banner.png" />
+	<img alt="dashgo" title="#dashgo" src=".github/banner.PNG" />
 </div>
 
 ## About
